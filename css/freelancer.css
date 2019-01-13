@@ -37,7 +37,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f0b1'; /* Remplazo estrella por portafolio, pero dejo el nombre igual */
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
@@ -68,6 +68,12 @@ section {
 section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
+}
+
+.img-fluid {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
@@ -104,8 +110,8 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   font-family: 'Montserrat';
 }
@@ -115,12 +121,13 @@ section h2 {
 }
 
 #mainNav .navbar-nav {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   letter-spacing: 0.0625rem;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  font-size: small;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -142,13 +149,13 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
@@ -168,12 +175,12 @@ section h2 {
     padding-bottom: 0.5rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1.0em;
   }
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(6rem + 10px);
   padding-bottom: 6rem;
 }
 
@@ -189,12 +196,12 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(6rem + 10px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
-    line-height: 4rem;
+    font-size: 2.75em;
+    line-height: 2rem;
   }
   header.masthead h2 {
     font-size: 1.75em;
