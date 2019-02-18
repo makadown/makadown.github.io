@@ -1,6 +1,6 @@
 ## Bienvenido a mi página de GitHub
 
-Página personal de portafolio.
+Página personal de portafolio. (En construcción 2019)
 
 ### Créditos
 
